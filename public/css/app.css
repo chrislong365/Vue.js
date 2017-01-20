@@ -1,0 +1,76 @@
+body {
+  margin-top: 0;
+  margin-left: 0;
+}
+
+.logo__img {
+  width: 50px;
+  height: 50px;
+}
+
+.header {
+  height: 100px;
+}
+
+.header .logo {
+  width: 100%;
+  height: 100%;
+  background-color: #858585;
+  overflow: hidden;
+  position: relative;
+}
+
+.header .logo .logo__img {
+  height: 100px;
+  width: 100px;
+}
+
+.header .info {
+  width: 55%;
+  text-align: right;
+  float: right;
+  overflow: hidden;
+  position: relative;
+  padding-right: 50px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  color: #fff;
+}
+
+.navigation {
+  width: 100%;
+  background-color: #cccccc;
+}
+
+.navigation .container .nav_list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.navigation .container .nav_list .nav_list_element {
+  display: inline;
+  background-color: #606060;
+  float: left;
+}
+
+.navigation .container .nav_list .nav_list_element a {
+  display: block;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  font-size: 15pt;
+  border: solid 1px #000;
+}
+
+.users {
+  list-style: none;
+  margin: 10px li;
+  margin-text-decoration: none;
+  margin-padding: 10px;
+}
+
+/*# sourceMappingURL=app.css.map */
