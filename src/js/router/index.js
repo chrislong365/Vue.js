@@ -17,7 +17,10 @@ export default new VueRouter({
   routes: [
     { path: '/', component: home },
     { path: '/people', component: people },
-    { path: '/people/:email', component: peopleShow }
+    { path: '/people/:email', component: peopleShow },
+    { path: '/steve',  redirect: '/people/steven.fitzgerald@csun.edu' },
+    { path: '*', redirect: '/' }
+
 
 
   ],

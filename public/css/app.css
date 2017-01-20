@@ -66,11 +66,43 @@ body {
   border: solid 1px #000;
 }
 
-.users {
+.content {
+  margin: auto auto;
+  text-align: center;
+}
+
+.content .users {
   list-style: none;
-  margin: 10px li;
-  margin-text-decoration: none;
-  margin-padding: 10px;
+  margin: 10px;
+}
+
+.content .users li {
+  margin: 0;
+}
+
+.content .users li button {
+  width: 185px;
+  height: 35px;
+  font-size: 16pt;
+  color: #fff;
+  background-color: #606060;
+  border: solid 1px #000;
+  border-radius: 0px;
+  cursor: pointer;
+}
+
+.content .users li button:hover {
+  background-color: #404040;
+  color: #0000EE;
+}
+
+.h5font {
+  font-size: 16px;
+}
+
+.bio {
+  width: 85%;
+  margin: auto;
 }
 
 /*# sourceMappingURL=app.css.map */

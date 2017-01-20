@@ -3,22 +3,24 @@
   <div>
     <TopHead></TopHead>
     <navigation></navigation>
-    <h1>Select a user from the list</h1>
+    <div class="content">
+      <h1>Select a user from the list</h1>
 
-    <ul class="users">
-      <li>
-        <router-link to='/people/steven.fitzgerald@csun.edu'>Steves Profile</router-link>
-      </li>
-      <li>
-        <router-link to='/people/dave.y.moon@csun.edu'>Dave's Profile</router-link>
-      </li>
-      <li>
-        <router-link to='/people/nerces.kazandjian@csun.edu'>Nerces's Profile</router-link>
-      </li>
-      <li>
-        <router-link to='/people/matthew.fritz@csun.edu'>Matt's Profile</router-link>
-      </li>
-    </ul>
+      <ul class="users">
+        <li>
+          <router-link tag="button" to='/people/steven.fitzgerald@csun.edu'>Steve</router-link>
+        </li>
+        <li>
+          <router-link tag="button" to='/people/dave.y.moon@csun.edu'>Dave</router-link>
+        </li>
+        <li>
+          <router-link tag="button" to='/people/nerces.kazandjian@csun.edu'>Nerces</router-link>
+        </li>
+        <li>
+          <router-link tag="button" to='/people/matthew.fritz@csun.edu'>Matt</router-link>
+        </li>
+      </ul>
+    </div>
   </div>
 </template>
 
